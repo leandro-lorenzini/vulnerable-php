@@ -8,7 +8,7 @@
 * Languages: PHP, PostgreSQL
 * Created as preparation for the OSWE/AWAE certification exam.
 
-* 
+* Passwrd=123
 
 ## Goals
 This is an intentionally vulnerable web application. There are 3 steps to complete the challenge, and multiple ways
