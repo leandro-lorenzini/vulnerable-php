@@ -4,6 +4,7 @@ FROM debian:buster-slim
 RUN apt-get update && apt-get install firefox-esr sudo apache2 libapache2-mod-php7.3 postgresql php7.3-pgsql python3-pip cron wget -y
 RUN pip3 install selenium==3.141.0
 
+
 # Install geckodriver
 COPY ./.docker/geckodriver /usr/bin/
 
